@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- menu de navegação na parte superior da pagina -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação Acadêmica</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencias">Experiências Profissionais</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- sobre mim -->
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Olá, meu nome é Cibeli, resido na cidade de São Paulo, sou nutricionista com 4 anos de experiencia na área clínica, apaixonada por tecnologia, atualmente em transição de carreira para a área de desenvolvimento de software, procurando uma oportunidade de adquirir experiencia nessa nova carreira.</p>
+        <p>Gosto muito de sair com a família e os amigos, conhecer novos restaurantes, assistir filmes e séries, ler, jogar videogame e viajar. </p>
+    </section>
+
+    <!-- formação acadêmica -->
+    <section id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li>Tecnologia em Análise e Desenvolvimento de Sistemas<br>
+                2024 - atualmente</li>
+            <br>
+            <li>Bacharelado em Nutrição</br>
+                2016 - 2020</li>
+        </ul>
+    </section> 
+
+    <!-- habilidades e idiomas -->
+    <section id="habilidades">        
+       <h2>Habilidades e Idiomas</h2>
+        <ul>
+            <li>Microsoft Office: intermediário</li>
+            <li>HTML: básico</li>
+            <li>CSS: básico</li>
+            <li>JavaScript: básico</li>
+            <li>Python: básico</li>
+            <li>Java: básico</li>
+            <br>
+            <li>Português: nativo</li>
+            <li>Inglês: intermediário</li>
+        </ul>
+    </section>
+
+    <!-- experiências profissionais -->
+    <section id="experiencias">
+        <h2>Experiências Profissionais</h2>
+        <ul>
+            <li>Instituto do Coração - INCOR<br>
+                01/2024 - 05/2024<br>
+                No cargo de nutricionista clínica, realizada funções como: terapia nutricional de pacientes internados em enfermaria e terapia intensiva; preceptoria de alunos de graduação e reuniões multidisciplinares</li>
+            <br>
+            <li>Hospital Novo Atibaia - GRSA<br>
+                08/2023 - 01/2024<br>
+                No cargo de nutricionista clínica, realizada funções como: terapia nutricional de pacientes internados (média e alta complexidade); gestão e treinamento de funcionários da cozinha e copa; reuniões multidisciplinares; promoção de saúde através da criação de material gráfico e palestras educativas.</li>
+            <br>
+            <li>Hospital São Paulo - UNIFESP<br>
+                03/2021 - 03/2023<br>
+                Realizei a Residência Multiprofissional em Sáude, com ênfase em cardiologia.</li>  
+        </ul>     
+    </section>
+
+    <!-- portifólico com o link para o meu Github -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <ul>
+            <li><a href= "https://github.com/cibelipetrone" class="link">Github</a></li>
+        </ul>
+    </section>
+
+   <!-- contato conforme requisitos do trabalho -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="enviar_formulario" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    <!-- rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Meu Site Pessoal</p>
+    </footer>
+
+</body>
+</html>
